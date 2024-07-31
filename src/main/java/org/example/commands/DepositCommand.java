@@ -6,6 +6,10 @@ public class DepositCommand extends Command {
     public DepositCommand(String argument) {
         super("deposit");
         this.arguments = argument;
+    }
+
+    @Override
+    public void execute() {
         System.out.println("Deposit command executed");
     }
 }
