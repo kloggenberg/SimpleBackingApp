@@ -6,6 +6,10 @@ public class MakeAccountCommand extends Command {
     public MakeAccountCommand(String arguements) {
         super("make");
         this.arguements = arguements;
+    }
+
+    @Override
+    public void execute() {
         System.out.println("MakeAccount Command executed");
     }
 }
